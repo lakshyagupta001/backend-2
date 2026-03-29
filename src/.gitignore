@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+coverage/
+.env
+.env.*
+
+
+// dist is created during build (Vite, Webpack, Rollup, etc.)
+// build is made in the build process, in tool like react-create-app
+// .next is made in the build process, in tool like nextjs
+// coverage is made in the test process, in tool like jest
